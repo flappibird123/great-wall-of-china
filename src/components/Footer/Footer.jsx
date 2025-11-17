@@ -2,7 +2,7 @@ import styles from './Footer.module.css'
 
 function Footer() {
     return(
-        <footer>
+        <footer className={styles.footer}>
             &copy; 2025 Max Medina, Jason Li, Jax Reid, Jarryd Chong
         </footer>
     );
